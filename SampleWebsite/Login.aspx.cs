@@ -17,6 +17,13 @@ public partial class Login : System.Web.UI.Page
     }
     protected void login(object sender, EventArgs e)
     {
+        
+    }
+
+
+
+    protected void ImageButton1_Click(object sender, ImageClickEventArgs e)
+    {
         string connStr = ConfigurationManager.ConnectionStrings["MyDbConn"].ToString();
         SqlConnection conn = new SqlConnection(connStr);
 
@@ -42,7 +49,7 @@ public partial class Login : System.Web.UI.Page
             //this is how you store data to session variable.
             Session["Iqama"] = iqama;
             Response.Write("Passed");
-            Response.Redirect("Companies", true);
+            Response.Redirect("ChooseEmp", true);
         }
         else
         {
@@ -50,5 +57,8 @@ public partial class Login : System.Web.UI.Page
         }
     }
 
-
+    protected void Button1_Click(object sender, EventArgs e)
+    {
+        Response.Redirect("Schedule");
+    }
 }
