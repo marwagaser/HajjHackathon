@@ -57,7 +57,9 @@ public partial class Login : System.Web.UI.Page
         }
     }
 
-    protected void Button1_Click(object sender, EventArgs e)
+
+
+    protected void ImageButton2_Click(object sender, ImageClickEventArgs e)
     {
         Response.Redirect("Schedule");
     }

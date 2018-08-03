@@ -41,12 +41,19 @@
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <asp:TextBox ID="txt_password" runat="server" placeholder="Please enter password" TextMode="Password" Height="20px"  Width="205px"></asp:TextBox>
     &nbsp;&nbsp;&nbsp;&nbsp;
-        <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" style="width: 68px" Text="Schedule of the Day" />
         <asp:ImageButton ID="ImageButton1" runat="server" Height="25px" ImageUrl="~/H2.PNG" Width="42px" OnClick="ImageButton1_Click" />
     
         <br />
     
     </div>
+&nbsp;&nbsp;&nbsp;&nbsp;
+     <br />
+     <br />
+     <br />
+     <br />
+     <br />
+     <br />
+     <asp:ImageButton ID="ImageButton2" runat="server" ImageUrl="38392429_2030783663607729_1432880430876459008_n.png" OnClick="ImageButton2_Click" />
     </form>
 
 </body>
